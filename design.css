@@ -1,0 +1,55 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+html {
+    background-color: #d9dff9;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+}
+
+h1 {
+    color: #3d1968;
+}
+
+h2 {
+    color: #3d1968;
+}
+
+ol {
+    list-style-type: none;
+    counter-reset: item;
+    text-align: justify;
+}
+
+ol li::before {
+    content: counter(item);
+    counter-increment: item;
+    font-weight: bold; /* Torna os números em negrito */
+    margin-right: 0.5em;
+}
+body {
+    font-size: 42px; /* Tamanho padrão da fonte */
+}
+
+h1 {
+    font-size: 80px; /* Tamanho maior para os cabeçalhos h1 */
+}
+
+p {
+    font-size: 40px; /* Tamanho maior para os parágrafos */
+    text-align:justify;
+}
+h2 {
+    font-size: 50px; /* Tamanho maior para os cabeçalhos h2*/
+}
+
+footer {
+    background-color: #3d1968;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
